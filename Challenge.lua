@@ -1,5 +1,6 @@
 
 --- initilization scripts -----
+fs.delete("ScriptDownloader.lua")
 shell.run("wget https://raw.githubusercontent.com/Arne-van-der-Lei/Minecraft-Challenge/master/ScriptDownloader.lua");
 shell.run("ScriptDownloader")
 
